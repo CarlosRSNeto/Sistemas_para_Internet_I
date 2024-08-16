@@ -1,0 +1,96 @@
+body {
+    background-image: url('gato.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: red;
+    color: white;
+    border: 2px solid green;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    background-color: green;
+    color: white;
+    border: 2px solid red;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.red-div {
+    background-color: red;
+    width: 700px;
+    padding: 0;
+    margin: 0 auto;
+    height: 100px; 
+}
+
+.green-div {
+    background-color: green;
+    width: 700px;
+    padding: 25px;
+    margin: 20px auto;
+    height: 100px;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 370px;
+    padding: 0px;
+}
+
+#divSapatos{
+    width: 370px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
