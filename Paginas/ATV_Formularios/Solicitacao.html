@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="icon" href="/Imagem/ATV_TAGS_Semanticas/icon.png" type="Icone">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Solicitação de Filme</title>
+
+</head>
+
+<body>
+
+    <h1>Solicitação de Filme</h1>
+
+    <form action="processa_solicitacao.php" method="POST">
+
+        <label for="movie_name">Nome do filme:</label><br>
+        <input type="text" id="movie_name" name="movie_name"><br>
+
+        <label for="year">Ano:</label><br>
+        <input type="number" id="year" name="year" min="1800" max="2099"><br><br>
+        
+        <input type="submit" value="Enviar">
+
+    </form>
+    
+    <br><br>
+
+    <a href="/Paginas/ATV_Formularios/ATV_Formularios.html"><i>Voltar</i></a>
+
+</body>
+
+</html>
